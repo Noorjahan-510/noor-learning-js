@@ -16,7 +16,7 @@ const JsUser={
 }
 
 console.log(JsUser.gmail);
-console.log(JsUser["gmail"]);
+console.log(JsUser["gmail"]);                 //in some cases we can't access value from . then need to access from bracket []
 console.log(JsUser["last name"]);
 console.log(typeof JsUser[mysymbol]);  //*syntax
 console.log(typeof mysymbol);

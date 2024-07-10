@@ -30,21 +30,24 @@ const myarr= new Array(1,2,4,6);
 // console.log( newarr);   //1,2,4,6
 
 
-//slice & splice
+//-------slice & splice----------------
 
 console.log("A ",myarr);
-const mynewarr1=myarr.slice(1,3);              //doesn't manipulate the original array
+const mynewarr1=myarr.slice(1,3);              //doesn't manipulate the original array | array will start from index 1 to 2
 
 
 console.log("B ",myarr);
 
 console.log("slice ",mynewarr1);
 console.log("after slice,original array is ",myarr);
-const mynewarr2=myarr.splice(1,3);                   //splice manipulate the original Array
+const mynewarr2=myarr.splice(1,3);                   //splice manipulate the original Array  | array will start from index 1 to 3
 
 console.log("splice  ", mynewarr2);  
 
 console.log("after splice,original array is ",myarr);
+
+
+
 
 
 
